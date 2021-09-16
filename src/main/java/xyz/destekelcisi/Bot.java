@@ -33,7 +33,7 @@ public class Bot extends ListenerAdapter implements EventListener {
 
     public void Login() throws LoginException {
 
-        JDABuilder builder = JDABuilder.createDefault("ODY0MTQ2MjE3MjE4OTk4Mjcy.YOxM4Q.94jsqRtKFn0v5PAEefaOdD39ERs");
+        JDABuilder builder = JDABuilder.createDefault("TOKEN");
 
         builder.disableCache(CacheFlag.MEMBER_OVERRIDES, CacheFlag.VOICE_STATE);
         builder.setBulkDeleteSplittingEnabled(false);
